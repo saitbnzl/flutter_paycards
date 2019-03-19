@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_paycards (0.0.1):
+    - Flutter
+    - PayCardsRecognizer
+  - PayCardsRecognizer (1.1.4)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_paycards (from `.symlinks/plugins/flutter_paycards/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PayCardsRecognizer
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_paycards:
+    :path: ".symlinks/plugins/flutter_paycards/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_paycards: 05537d1271430041c5246afe0002d708a6580c20
+  PayCardsRecognizer: b939eec21c6890d57c9f22cb8856517922b097a2
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.5.3
