@@ -1,7 +1,6 @@
 #import "ViewController.h"
-#import "PayCardsRecognizer.h"
 #import "FlutterPaycardsPlugin.h"
-
+#import <PayCardsRecognizer/PayCardsRecognizer.h>
 @interface ViewController()<PayCardsRecognizerPlatformDelegate>
 @end
 

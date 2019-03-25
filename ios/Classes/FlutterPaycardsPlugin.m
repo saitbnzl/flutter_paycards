@@ -1,5 +1,5 @@
 #import "FlutterPaycardsPlugin.h"
-#import "PayCardsRecognizer.h"
+#import <PayCardsRecognizer/PayCardsRecognizer.h>
 #import "ViewController.h"
 
 @interface FlutterPaycardsPlugin ()<PayCardsRecognizerPlatformDelegate>
