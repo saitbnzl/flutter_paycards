@@ -66,5 +66,5 @@ typedef NS_OPTIONS(NSUInteger, PayCardsRecognizerDataMode) {
 @protocol PayCardsRecognizerPlatformDelegate
 
 - (void)payCardsRecognizer:(PayCardsRecognizer * _Nonnull)payCardsRecognizer didRecognize:(PayCardsRecognizerResult * _Nonnull)result;
-
+- (void)payCardsRecognizer:(PayCardsRecognizer * _Nonnull)payCardsRecognizer didCancel:(PayCardsRecognizerResult * _Nullable)result;
 @end

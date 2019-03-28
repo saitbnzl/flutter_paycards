@@ -52,6 +52,11 @@
               });
 }
 
+- (void)payCardsRecognizer:(PayCardsRecognizer *)payCardsRecognizer didCancel:(PayCardsRecognizerResult *)result{
+    NSLog(@"didCancel %@ %@", result.recognizedNumber, result.recognizedExpireDateYear);
+    [_pcViewController dismissViewControllerAnimated:true completion:nil];
+}
+
 static id ObjectOrNull(id object) {
     return object ?: [NSNull null];
 }
