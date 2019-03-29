@@ -4,3 +4,7 @@ This is a Flutter plugin for [PayCards SDK](https://github.com/faceterteam/PayCa
 
 Work in progress ⏳
 
+Ready to use in IOS:
+
+`Map<dynamic, dynamic> results = await FlutterPaycards.startRecognizer;`
+
