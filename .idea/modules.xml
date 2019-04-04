@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutter_paycards.iml" filepath="$PROJECT_DIR$/flutter_paycards.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/flutter_paycards_android.iml" filepath="$PROJECT_DIR$/android/flutter_paycards_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/flutter_paycards_example_android.iml" filepath="$PROJECT_DIR$/example/android/flutter_paycards_example_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
     </modules>
   </component>
 </project>

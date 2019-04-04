@@ -1,0 +1,54 @@
+{
+  "buildFiles": [
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/armneon2x86sse/cmake/Config.cmake.in",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/libyuv/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/caffe/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "protobuf-Release-arm64-v8a": {
+      "artifactName": "protobuf",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a --target protobuf",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a/protobuf/libprotobuf.a"
+    },
+    "caffe-Release-arm64-v8a": {
+      "artifactName": "caffe",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a --target caffe",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a/caffe/libcaffe.a"
+    },
+    "cardrecognizer-Release-arm64-v8a": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a --target cardrecognizer",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so"
+    },
+    "libyuv-Release-arm64-v8a": {
+      "artifactName": "libyuv",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a --target libyuv",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a/libyuv/liblibyuv.a"
+    },
+    "crossplatform-Release-arm64-v8a": {
+      "artifactName": "crossplatform",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a --target crossplatform",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/release/arm64-v8a/crossplatform/libcrossplatform.a"
+    }
+  }
+}
