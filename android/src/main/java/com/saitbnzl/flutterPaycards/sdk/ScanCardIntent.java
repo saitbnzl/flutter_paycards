@@ -3,8 +3,8 @@ package com.saitbnzl.flutterPaycards.sdk;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import androidx.annotation.IntDef;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.IntDef;
+import android.support.annotation.RestrictTo;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

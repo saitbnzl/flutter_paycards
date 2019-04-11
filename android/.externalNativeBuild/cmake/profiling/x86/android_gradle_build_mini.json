@@ -1,0 +1,54 @@
+{
+  "buildFiles": [
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/armneon2x86sse/cmake/Config.cmake.in",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/libyuv/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/abi-x86/OpenCVModules-release.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/abi-x86/OpenCVConfig.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/abi-x86/OpenCVModules.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/caffe/CMakeLists.txt",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86 --target clean"
+  ],
+  "libraries": {
+    "caffe-Release-x86": {
+      "artifactName": "caffe",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86 --target caffe",
+      "abi": "x86",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86/caffe/libcaffe.a"
+    },
+    "libyuv-Release-x86": {
+      "artifactName": "libyuv",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86 --target libyuv",
+      "abi": "x86",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86/libyuv/liblibyuv.a"
+    },
+    "crossplatform-Release-x86": {
+      "artifactName": "crossplatform",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86 --target crossplatform",
+      "abi": "x86",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86/crossplatform/libcrossplatform.a"
+    },
+    "cardrecognizer-Release-x86": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86 --target cardrecognizer",
+      "abi": "x86",
+      "output": "/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/profiling/obj/x86/libcardrecognizer.so"
+    },
+    "protobuf-Release-x86": {
+      "artifactName": "protobuf",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86 --target protobuf",
+      "abi": "x86",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/x86/protobuf/libprotobuf.a"
+    }
+  }
+}

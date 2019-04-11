@@ -15,7 +15,7 @@
  */
 package com.saitbnzl.flutterPaycards.sdk.camera.gles;
 
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 
 import java.nio.FloatBuffer;
 

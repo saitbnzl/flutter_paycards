@@ -16,7 +16,7 @@
 package com.saitbnzl.flutterPaycards.sdk.camera.gles;
 
 import android.opengl.Matrix;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 
 /**
  * Base class for a 2d object.  Includes position, scale, rotation, and flat-shaded color.

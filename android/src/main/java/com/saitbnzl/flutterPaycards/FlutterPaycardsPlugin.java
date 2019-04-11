@@ -13,6 +13,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 import com.saitbnzl.flutterPaycards.sdk.Card;
 import com.saitbnzl.flutterPaycards.sdk.ScanCardIntent;
+import com.saitbnzl.flutterPaycards.sdk.camera.CameraConfigurationUtils;
 import com.saitbnzl.flutterPaycards.sdk.ui.ScanCardActivity;
 
 import java.util.HashMap;

@@ -2,7 +2,7 @@ package com.saitbnzl.flutterPaycards.sdk.camera;
 
 import android.graphics.Rect;
 import android.hardware.Camera;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 import android.util.Log;
 
 import java.util.ArrayList;

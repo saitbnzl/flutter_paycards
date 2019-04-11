@@ -2,7 +2,7 @@ package com.saitbnzl.flutterPaycards.sdk.ui;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public final class ScanCardRequest implements Parcelable {

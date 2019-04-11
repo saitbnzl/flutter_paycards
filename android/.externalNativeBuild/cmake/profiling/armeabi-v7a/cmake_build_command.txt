@@ -3,13 +3,13 @@ arguments :
 -H/Users/saitbanazili/flutter_paycards/android/src/main/cpp
 -B/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profiling/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
--DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/profiling/obj/armeabi-v7a
+-DANDROID_PLATFORM=android-18
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/profiling/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=/Users/saitbanazili/Library/Android/sdk/ndk-bundle
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
--DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_SYSTEM_VERSION=18
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 -DCMAKE_ANDROID_NDK=/Users/saitbanazili/Library/Android/sdk/ndk-bundle
 -DCMAKE_TOOLCHAIN_FILE=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake

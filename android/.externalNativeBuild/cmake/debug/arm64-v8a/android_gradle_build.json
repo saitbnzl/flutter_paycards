@@ -1,12 +1,12 @@
 {
   "stringTable": {
-    "0": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a/protobuf",
+    "0": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a",
     "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcardrecognizer_EXPORTS -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/CV -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/NeuralNetwork -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/Public -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/Recognizer -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/Torch -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Recognizer -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Torch -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/jniImpl -isystem /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/include -isystem /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/include/opencv -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/libyuv/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -O0 -fno-limit-debug-info -fPIC",
     "2": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -O0 -fno-limit-debug-info -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11",
     "3": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DCPU_ONLY -DUSE_EIGEN -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/caffe/Caffe -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/caffe/include -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen/Eigen -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -O0 -fno-limit-debug-info -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3",
     "4": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/libyuv/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -O0 -fno-limit-debug-info -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -Wall -O3",
     "5": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DCPU_ONLY -DUSE_EIGEN -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/CV -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/NeuralNetwork -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/Public -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/Recognizer -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Include/Torch -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Recognizer -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/CrossPlatform/Torch -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/crossplatform/jniImpl -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen/Eigen -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/caffe/include -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf -I/Users/saitbanazili/flutter_paycards/android/src/main/cpp/libyuv/include -isystem /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/include -isystem /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/jni/include/opencv -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -O0 -fno-limit-debug-info -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -std=c++11",
-    "6": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a",
+    "6": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a/protobuf",
     "7": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a/caffe",
     "8": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a/libyuv",
     "9": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a/crossplatform"
@@ -42,147 +42,147 @@
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/descriptor.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/descriptor_database.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/descriptor.pb.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/dynamic_message.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/extension_set.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/extension_set_heavy.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/generated_message_reflection.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/generated_message_util.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/coded_stream.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/gzip_stream.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/printer.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/tokenizer.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/zero_copy_stream.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl_lite.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/message.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/message_lite.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/reflection_ops.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/repeated_field.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/service.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/common.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/once.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/structurally_valid.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/strutil.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/substitute.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/text_format.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/unknown_field_set.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/wire_format.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         },
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/wire_format_lite.cc",
           "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
+          "workingDirectoryOrdinal": 6
         }
       ],
       "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a/protobuf/libprotobuf.a"
@@ -197,10 +197,10 @@
         {
           "src": "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/CardRecognizer-jni.cpp",
           "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 6
+          "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/obj/arm64-v8a/libcardrecognizer.so"
+      "output": "/Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/debug/obj/arm64-v8a/libcardrecognizer.so"
     },
     "libyuv-Debug-arm64-v8a": {
       "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/arm64-v8a --target libyuv",

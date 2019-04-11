@@ -3,7 +3,7 @@ package com.saitbnzl.flutterPaycards.sdk;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import java.io.Serializable;
 

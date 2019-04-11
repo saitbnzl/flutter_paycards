@@ -20,12 +20,6 @@
     "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86 --target clean"
   ],
   "libraries": {
-    "protobuf-Debug-x86": {
-      "artifactName": "protobuf",
-      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86 --target protobuf",
-      "abi": "x86",
-      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86/protobuf/libprotobuf.a"
-    },
     "caffe-Debug-x86": {
       "artifactName": "caffe",
       "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86 --target caffe",
@@ -37,6 +31,12 @@
       "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86 --target libyuv",
       "abi": "x86",
       "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86/libyuv/liblibyuv.a"
+    },
+    "protobuf-Debug-x86": {
+      "artifactName": "protobuf",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86 --target protobuf",
+      "abi": "x86",
+      "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86/protobuf/libprotobuf.a"
     },
     "cardrecognizer-Debug-x86": {
       "artifactName": "cardrecognizer",

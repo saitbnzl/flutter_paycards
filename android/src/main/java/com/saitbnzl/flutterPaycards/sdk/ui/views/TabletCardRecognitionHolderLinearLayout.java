@@ -2,7 +2,7 @@ package com.saitbnzl.flutterPaycards.sdk.ui.views;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;

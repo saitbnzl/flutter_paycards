@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 ANDROID_NDK:UNINITIALIZED=/Users/saitbanazili/Library/Android/sdk/ndk-bundle
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-16
+ANDROID_PLATFORM:UNINITIALIZED=android-18
 
 //No help, variable specified on the command line.
 ANDROID_STL:UNINITIALIZED=c++_shared
@@ -120,7 +120,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //No help, variable specified on the command line.
-CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/profiling/obj/armeabi-v7a
+CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/profiling/obj/armeabi-v7a
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ld
@@ -202,7 +202,7 @@ CMAKE_STRIP:FILEPATH=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchai
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 
 //No help, variable specified on the command line.
-CMAKE_SYSTEM_VERSION:UNINITIALIZED=16
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=18
 
 //The CMake toolchain file
 CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake

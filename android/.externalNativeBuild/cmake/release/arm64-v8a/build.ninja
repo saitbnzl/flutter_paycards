@@ -85,18 +85,18 @@ build CMakeFiles/cardrecognizer.dir/CardRecognizer-jni.cpp.o: CXX_COMPILER__card
 
 
 #############################################
-# Link the shared library /Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
+# Link the shared library /Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
 
-build /Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so: CXX_SHARED_LIBRARY_LINKER__cardrecognizer CMakeFiles/cardrecognizer.dir/CardRecognizer-jni.cpp.o | crossplatform/libcrossplatform.a libyuv/liblibyuv.a caffe/libcaffe.a protobuf/libprotobuf.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a || caffe/libcaffe.a crossplatform/libcrossplatform.a libyuv/liblibyuv.a protobuf/libprotobuf.a
+build /Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so: CXX_SHARED_LIBRARY_LINKER__cardrecognizer CMakeFiles/cardrecognizer.dir/CardRecognizer-jni.cpp.o | crossplatform/libcrossplatform.a libyuv/liblibyuv.a caffe/libcaffe.a protobuf/libprotobuf.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a || caffe/libcaffe.a crossplatform/libcrossplatform.a libyuv/liblibyuv.a protobuf/libprotobuf.a
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = crossplatform/libcrossplatform.a libyuv/liblibyuv.a -llog -lz caffe/libcaffe.a protobuf/libprotobuf.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_core.a -llog -lz /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a -lc -ldl -lm /Users/saitbanazili/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a -latomic -lm
   OBJECT_DIR = CMakeFiles/cardrecognizer.dir
   POST_BUILD = :
   PRE_LINK = :
   SONAME = libcardrecognizer.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
+  TARGET_FILE = /Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
   TARGET_PDB = cardrecognizer.so.dbg
 
 #############################################
@@ -1334,10 +1334,10 @@ build crossplatform/libcrossplatform.a: CXX_STATIC_LIBRARY_LINKER__crossplatform
 # Target aliases.
 
 build caffe: phony caffe/libcaffe.a
-build cardrecognizer: phony /Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
+build cardrecognizer: phony /Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
 build crossplatform: phony crossplatform/libcrossplatform.a
 build libcaffe.a: phony caffe/libcaffe.a
-build libcardrecognizer.so: phony /Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
+build libcardrecognizer.so: phony /Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so
 build libcrossplatform.a: phony crossplatform/libcrossplatform.a
 build liblibyuv.a: phony libyuv/liblibyuv.a
 build libprotobuf.a: phony protobuf/libprotobuf.a
@@ -1390,7 +1390,7 @@ build  protobuf/all: phony protobuf
 #############################################
 # The main all target.
 
-build all: phony /Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so protobuf/libprotobuf.a caffe/libcaffe.a libyuv/liblibyuv.a crossplatform/libcrossplatform.a
+build all: phony /Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a/libcardrecognizer.so protobuf/libprotobuf.a caffe/libcaffe.a libyuv/liblibyuv.a crossplatform/libcrossplatform.a
 
 #############################################
 # Make the all target the default.

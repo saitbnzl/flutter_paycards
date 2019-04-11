@@ -26,17 +26,17 @@
       "abi": "arm64-v8a",
       "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profile/arm64-v8a/protobuf/libprotobuf.a"
     },
+    "cardrecognizer-Debug-arm64-v8a": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profile/arm64-v8a --target cardrecognizer",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/profile/obj/arm64-v8a/libcardrecognizer.so"
+    },
     "libyuv-Debug-arm64-v8a": {
       "artifactName": "libyuv",
       "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profile/arm64-v8a --target libyuv",
       "abi": "arm64-v8a",
       "output": "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profile/arm64-v8a/libyuv/liblibyuv.a"
-    },
-    "cardrecognizer-Debug-arm64-v8a": {
-      "artifactName": "cardrecognizer",
-      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/profile/arm64-v8a --target cardrecognizer",
-      "abi": "arm64-v8a",
-      "output": "/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/profile/obj/arm64-v8a/libcardrecognizer.so"
     },
     "caffe-Debug-arm64-v8a": {
       "artifactName": "caffe",

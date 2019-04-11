@@ -1,6 +1,6 @@
 package com.saitbnzl.flutterPaycards.sdk.camera;
 
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 
 import java.io.IOException;
 

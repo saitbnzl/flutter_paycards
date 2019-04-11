@@ -1,7 +1,7 @@
 package com.saitbnzl.flutterPaycards.sdk.utils;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.Nullable;
+import android.support.annotation.RestrictTo;
 import android.text.TextUtils;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)

@@ -24,6 +24,9 @@ ANDROID_NDK:UNINITIALIZED=/Users/saitbanazili/Library/Android/sdk/ndk-bundle
 ANDROID_PLATFORM:UNINITIALIZED=android-16
 
 //No help, variable specified on the command line.
+ANDROID_STL:UNINITIALIZED=c++_shared
+
+//No help, variable specified on the command line.
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=arm64-v8a
 
 //No help, variable specified on the command line.
@@ -117,7 +120,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //No help, variable specified on the command line.
-CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a
+CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/release/obj/arm64-v8a
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ld

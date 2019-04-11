@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.ImageFormat;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
@@ -279,6 +279,7 @@ class CameraManager {
             @Override
             public void onPreviewFrame(byte[] data, Camera camera) {
                 if (mCamera == null) return;
+
                 if (DBG) {
                     singleFrameCallback = mSnapNextFrameCallback;
                     mSnapNextFrameCallback = null;

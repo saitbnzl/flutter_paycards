@@ -36,7 +36,7 @@
       "artifactName": "cardrecognizer",
       "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a --target cardrecognizer",
       "abi": "armeabi-v7a",
-      "output": "/Users/saitbanazili/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/obj/armeabi-v7a/libcardrecognizer.so"
+      "output": "/Users/saitbanazili/PaynetFlutter/build/flutter_paycards/intermediates/cmake/debug/obj/armeabi-v7a/libcardrecognizer.so"
     },
     "crossplatform-Debug-armeabi-v7a": {
       "artifactName": "crossplatform",

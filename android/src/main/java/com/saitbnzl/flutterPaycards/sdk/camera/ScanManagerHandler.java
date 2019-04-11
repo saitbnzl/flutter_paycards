@@ -3,7 +3,7 @@ package com.saitbnzl.flutterPaycards.sdk.camera;
 import android.hardware.Camera;
 import android.os.Handler;
 import android.os.Message;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 import android.util.Log;
 
 import java.lang.ref.WeakReference;

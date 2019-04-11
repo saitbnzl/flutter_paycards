@@ -4,8 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.Nullable;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.Nullable;
+import android.support.annotation.RestrictTo;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public final class RecognitionResult implements Parcelable {

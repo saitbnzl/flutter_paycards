@@ -1,7 +1,7 @@
 package com.saitbnzl.flutterPaycards.sdk.camera;
 
 import android.content.Context;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.RestrictTo;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
