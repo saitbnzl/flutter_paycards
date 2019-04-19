@@ -2,7 +2,7 @@ name: flutter_paycards
 description: Flutter plugin for PayCards SDK.
 author: Sait Banazili<saitbnzl@gmail.com>
 homepage: https://github.com/saitbnzl/flutter_paycards
-version: 0.0.2
+version: 0.1.0
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
