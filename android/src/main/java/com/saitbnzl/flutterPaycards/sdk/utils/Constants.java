@@ -1,6 +1,6 @@
 package com.saitbnzl.flutterPaycards.sdk.utils;
 
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RestrictTo;
 
 import com.saitbnzl.flutterPaycards.BuildConfig;
 

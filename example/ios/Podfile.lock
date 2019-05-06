@@ -14,9 +14,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_paycards/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  flutter_paycards: c54a02d61a1856b939fb6fc36c48b1d9ffddfba4
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_paycards: 8b094416d2b22905658363d997ace16d6783f4f9
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

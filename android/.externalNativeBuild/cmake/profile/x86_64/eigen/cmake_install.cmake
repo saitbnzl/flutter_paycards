@@ -1,4 +1,4 @@
-# Install script for directory: /Users/saitbanazili/flutter_paycards/android/src/main/cpp/eigen
+# Install script for directory: /Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,10 +30,5 @@ endif()
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "0")
-endif()
-
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 

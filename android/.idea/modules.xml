@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/android.iml" filepath="$PROJECT_DIR$/.idea/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_paycards.iml" filepath="$PROJECT_DIR$/flutter_paycards.iml" />
     </modules>
   </component>

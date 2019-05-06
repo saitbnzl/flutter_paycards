@@ -1,4 +1,4 @@
-# Install script for directory: /Users/saitbanazili/flutter_paycards/android/src/main/cpp/armneon2x86sse
+# Install script for directory: /Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/armneon2x86sse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,27 +32,22 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "TRUE")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/armneon2x86sse/NEON_2_SSE.h")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/saitbanazili/flutter_paycards/android/src/main/cpp/armneon2x86sse/NEON_2_SSE.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE" TYPE FILE FILES
-    "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/generated/NEON_2_SSEConfig.cmake"
-    "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/generated/NEON_2_SSEConfigVersion.cmake"
+    "/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/generated/NEON_2_SSEConfig.cmake"
+    "/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/generated/NEON_2_SSEConfigVersion.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake"
-         "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
+         "/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE/NEON_2_SSETargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -61,6 +56,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE" TYPE FILE FILES "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE" TYPE FILE FILES "/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/armeabi-v7a/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
 endif()
 

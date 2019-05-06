@@ -1,6 +1,6 @@
 package com.saitbnzl.flutterPaycards.sdk.ndk;
 
-import android.support.annotation.IntRange;
+import androidx.annotation.IntRange;
 
 import com.saitbnzl.flutterPaycards.sdk.ndk.RecognitionConstants.WorkAreaOrientation;
 

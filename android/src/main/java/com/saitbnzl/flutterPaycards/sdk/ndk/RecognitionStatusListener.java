@@ -2,7 +2,7 @@ package com.saitbnzl.flutterPaycards.sdk.ndk;
 
 
 import android.graphics.Bitmap;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RestrictTo;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public interface RecognitionStatusListener {

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/saitbanazili/flutter_paycards/android/src/main/cpp
+# Install script for directory: /Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,19 +32,14 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "TRUE")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/armneon2x86sse/cmake_install.cmake")
-  include("/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/eigen/cmake_install.cmake")
-  include("/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/cmake_install.cmake")
-  include("/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/caffe/cmake_install.cmake")
-  include("/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/cmake_install.cmake")
-  include("/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/cmake_install.cmake")
+  include("/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/armneon2x86sse/cmake_install.cmake")
+  include("/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/eigen/cmake_install.cmake")
+  include("/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/cmake_install.cmake")
+  include("/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/caffe/cmake_install.cmake")
+  include("/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/cmake_install.cmake")
+  include("/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/saitbanazili/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/saitbanazili/repos/flutter_paycards/android/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

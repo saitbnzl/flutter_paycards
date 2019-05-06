@@ -5,13 +5,13 @@ import android.hardware.Camera;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.*;
+import androidx.annotation.*;
 import android.util.Log;
 
 import com.saitbnzl.flutterPaycards.sdk.utils.Constants;
 
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 import static android.hardware.Camera.AutoFocusCallback;
 import static android.hardware.Camera.AutoFocusMoveCallback;
