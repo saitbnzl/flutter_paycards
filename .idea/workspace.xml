@@ -1,7 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28718265-e358-4f16-9e33-dbcb34bd460a" name="Default Changelist" comment="" />
+    <list default="true" id="28718265-e358-4f16-9e33-dbcb34bd460a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cardrecognizer.dir/CardRecognizer-jni.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cardrecognizer.dir/CardRecognizer-jni.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/blob.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/blob.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/common.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/common.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layer_factory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layer_factory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/base_conv_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/base_conv_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/base_data_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/base_data_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/bnll_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/bnll_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/concat_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/concat_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/conv_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/conv_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/eltwise_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/eltwise_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/flatten_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/flatten_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/im2col_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/im2col_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/inner_product_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/inner_product_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/loss_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/loss_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/lrn_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/lrn_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/memory_data_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/memory_data_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/neuron_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/neuron_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/pooling_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/pooling_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/power_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/power_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/relu_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/relu_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/sigmoid_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/sigmoid_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/softmax_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/softmax_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/softmax_loss_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/softmax_loss_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/split_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/split_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/tanh_layer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/layers/tanh_layer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/net.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/net.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/proto/caffe.pb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/proto/caffe.pb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/syncedmem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/syncedmem.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/im2col.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/im2col.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/insert_splits.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/insert_splits.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/io.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/io.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/math_functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/math_functions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/upgrade_proto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/CMakeFiles/caffe.dir/Caffe/util/upgrade_proto.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/libcaffe.a" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/caffe/libcaffe.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/canny.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/canny.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/hough.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/hough.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/warp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/warp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeDatum.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeDatum.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeDatumList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeDatumList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeNeuralNetwork.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeNeuralNetwork.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeObjectFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeObjectFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeResult.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeResult.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeResultList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CaffePredictor/CaffeResultList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/DateRecognizer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/DateRecognizer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/EdgesDetector.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/EdgesDetector.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/FrameStorage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/FrameStorage.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/NameRecognizer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/NameRecognizer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/NumberRecognizer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/NumberRecognizer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/RecognitionCore.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/RecognitionCore.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/RecognitionResult.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/RecognitionResult.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/Utils.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Recognizer/Utils.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/ServiceContainer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/ServiceContainer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Torch/TorchManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/Torch/TorchManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/jniImpl/RecognitionCoreDelegate.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/jniImpl/RecognitionCoreDelegate.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/jniImpl/TorchDelegate.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/CMakeFiles/crossplatform.dir/jniImpl/TorchDelegate.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/libcrossplatform.a" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/crossplatform/libcrossplatform.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_common.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_common.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_gcc.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_gcc.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_mmi.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_mmi.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_msa.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_msa.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_neon64.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/compare_neon64.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_argb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_argb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_from.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_from.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_from_argb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_from_argb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_to_argb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_to_argb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_to_i420.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/convert_to_i420.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/cpu_id.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/cpu_id.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/planar_functions.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/planar_functions.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_any.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_any.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_argb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_argb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_common.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_common.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_gcc.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_gcc.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_mmi.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_mmi.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_msa.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_msa.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_neon64.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/rotate_neon64.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_any.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_any.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_common.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_common.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_gcc.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_gcc.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_mmi.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_mmi.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_msa.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_msa.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_neon64.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/row_neon64.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_any.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_any.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_argb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_argb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_common.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_common.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_gcc.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_gcc.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_mmi.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_mmi.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_msa.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_msa.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_neon64.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/scale_neon64.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/video_common.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/CMakeFiles/libyuv.dir/source/video_common.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/liblibyuv.a" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/libyuv/liblibyuv.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/descriptor.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/descriptor.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/descriptor.pb.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/descriptor.pb.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/descriptor_database.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/descriptor_database.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/dynamic_message.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/dynamic_message.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/extension_set.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/extension_set.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/extension_set_heavy.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/extension_set_heavy.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/generated_message_reflection.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/generated_message_reflection.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/generated_message_util.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/generated_message_util.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/coded_stream.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/coded_stream.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/gzip_stream.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/gzip_stream.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/printer.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/printer.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/tokenizer.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/tokenizer.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/zero_copy_stream.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/zero_copy_stream.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl_lite.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl_lite.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/message.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/message.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/message_lite.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/message_lite.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/reflection_ops.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/reflection_ops.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/repeated_field.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/repeated_field.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/service.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/service.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/common.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/common.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/once.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/once.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/structurally_valid.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/structurally_valid.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/strutil.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/strutil.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/substitute.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/stubs/substitute.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/text_format.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/text_format.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/unknown_field_set.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/unknown_field_set.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/wire_format.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/wire_format.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/wire_format_lite.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/CMakeFiles/protobuf.dir/GoogleProtobuf/google/protobuf/wire_format_lite.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/libprotobuf.a" beforeDir="false" afterPath="$PROJECT_DIR$/android/.externalNativeBuild/cmake/debug/x86_64/protobuf/libprotobuf.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_paycards/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_paycards/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_paycards/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_paycards/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_paycards/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_paycards/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
     <ignored path="$PROJECT_DIR$/example/.dart_tool/" />
@@ -66,11 +209,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/android/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -80,6 +250,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>flutter_paycards_</find>
+      <find>abiFilters</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,16 +259,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/android/settings.gradle" />
         <option value="$PROJECT_DIR$/test/flutter_paycards_test.dart" />
         <option value="$PROJECT_DIR$/android/gradle.properties" />
         <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/example/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="984" />
@@ -119,6 +290,12 @@
             <path>
               <item name="flutter_paycards" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_paycards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_paycards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_paycards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,9 +354,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="984" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33599573" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3397231" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -189,12 +367,12 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32996634" />
       <window_info anchor="bottom" id="Buck" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32996634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -212,13 +390,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/saitbnzl/flutter_paycards/FlutterPaycardsPlugin.java" />
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -257,6 +428,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

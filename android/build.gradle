@@ -31,9 +31,6 @@ android {
                 arguments '-DANDROID_STL=c++_shared'
             }
         }
-        ndk{
-            abiFilters 'x86', 'x86_64', 'armeabi-v7a'
-        }
     }
     lintOptions {
         disable 'InvalidPackage'
