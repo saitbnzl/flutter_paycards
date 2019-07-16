@@ -8,8 +8,6 @@ Work in progress ⏳
 
 *This plugin requires AndroidX migration in Android.
 
-*Currently not working on IOS simulator.
-
 ## Usage
 
 `import 'package:flutter_paycards/flutter_paycards.dart';`  
