@@ -1,3 +1,6 @@
+## 0.1.3
+* null control in onActivityResult
+
 ## 0.1.2
 * Removed abiFilters from gradle
 

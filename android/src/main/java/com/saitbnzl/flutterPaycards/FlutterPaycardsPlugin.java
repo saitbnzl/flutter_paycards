@@ -58,23 +58,24 @@ public class FlutterPaycardsPlugin implements MethodCallHandler, PluginRegistry.
     if (requestCode == REQUEST_CODE_SCAN_CARD) {
       if (resultCode == Activity.RESULT_OK) {
         Card card = data.getParcelableExtra(ScanCardIntent.RESULT_PAYCARDS_CARD);
-        String cardData = "Card number: " + card.getCardNumberRedacted() + "\n"
-                + "Card holder: " + card.getCardHolderName() + "\n"
-                + "Card expiration date: " + card.getExpirationDate();
-        Log.i("flutter_paycards", "Card info: " + cardData);
-        Map<String, Object> response = new HashMap<>();
         if(card!=null){
-          response.put("cardHolderName", card.getCardHolderName());
-          response.put("cardNumber", card.getCardNumber());
-          if(card.getExpirationDate()!=null){
-            response.put("expiryMonth", card.getExpirationDate().substring(0,2));
-            response.put("expiryYear", card.getExpirationDate().substring(3,5));
+          String cardData = "Card number: " + card.getCardNumberRedacted() + "\n"
+                  + "Card holder: " + card.getCardHolderName() + "\n"
+                  + "Card expiration date: " + card.getExpirationDate();
+          Log.i("flutter_paycards", "Card info: " + cardData);
+          Map<String, Object> response = new HashMap<>();
+          if(card!=null){
+            response.put("cardHolderName", card.getCardHolderName());
+            response.put("cardNumber", card.getCardNumber());
+            if(card.getExpirationDate()!=null){
+              response.put("expiryMonth", card.getExpirationDate().substring(0,2));
+              response.put("expiryYear", card.getExpirationDate().substring(3,5));
+            }
+            mResult.success(response);
+          }else{
+            mResult.error("NOT_RECOGNIZED",null,null);
           }
-          mResult.success(response);
-        }else{
-          mResult.error("NOT_RECOGNIZED",null,null);
         }
-
       } else if (resultCode == Activity.RESULT_CANCELED) {
         mResult.error("CANCELED",null,null);
         Log.i("flutter_paycards", "Scan canceled");
