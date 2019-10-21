@@ -7,3 +7,6 @@ git.DS_Store
 build/
 
 .externalNativeBuild/
+
+flutter_export_environment.sh
+.idea/
