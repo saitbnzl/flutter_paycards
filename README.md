@@ -12,5 +12,6 @@ Work in progress ⏳
 
 `import 'package:flutter_paycards/flutter_paycards.dart';`  
 ...  
-`Map<dynamic, dynamic> results = await FlutterPaycards.startRecognizer;`
+`Map<dynamic, dynamic> results = await FlutterPaycards.startRecognizer(fullScreen: false);`
 
+**fullScreen** determines [UIModalPresentationStyle](https://developer.apple.com/documentation/uikit/uimodalpresentationstyle) on IOS 13+

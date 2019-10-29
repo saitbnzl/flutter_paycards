@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
     dynamic cardScanResult;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      cardScanResult = await FlutterPaycards.startRecognizer;
+      cardScanResult = await FlutterPaycards.startRecognizer(fullScreen: false);
       debugPrint("cardScanResult $cardScanResult");
     } on PlatformException {
       debugPrint("PlatformException");

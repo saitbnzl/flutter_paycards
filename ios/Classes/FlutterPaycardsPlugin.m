@@ -1,4 +1,4 @@
-#import "FlutterPaycardsPlugin.h"
+  #import "FlutterPaycardsPlugin.h"
 #import <PayCardsRecognizer/PayCardsRecognizer.h>
 #import "ViewController.h"
 
@@ -16,7 +16,6 @@
     if (self) {
         _viewController = viewController;
         _pcViewController = [[ViewController alloc] initWitRecognizerDelegate:self];
-      
     }
     return self;
 }
@@ -33,6 +32,12 @@
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
   if ([@"startRecognizer" isEqualToString:call.method]) {
       _result = result;
+      if (@available(iOS 13, *)){
+          NSNumber *fullScreen = call.arguments[@"fullScreen"];
+          UIModalPresentationStyle uiModalPresentationStyle = fullScreen.boolValue?UIModalPresentationFullScreen:UIModalPresentationPopover;
+          [_pcViewController setModalPresentationStyle:uiModalPresentationStyle];
+           NSLog(@"set fullscreen %d", (int)fullScreen);
+      }
       [_viewController presentViewController:_pcViewController animated:true completion:^{
           NSLog(@"presentViewController completed");
       }];
@@ -42,7 +47,7 @@
 }
 
 - (void)payCardsRecognizer:(PayCardsRecognizer *)payCardsRecognizer didRecognize:(PayCardsRecognizerResult *)result{
-    NSLog(@"test %@ %@", result.recognizedNumber, result.recognizedExpireDateYear);
+    NSLog(@"didRecognize %@ %@", result.recognizedNumber, result.recognizedExpireDateYear);
     [_pcViewController dismissViewControllerAnimated:true completion:nil];
     _result(@{
               @"cardHolderName": ObjectOrNull((result.recognizedHolderName)),
