@@ -10,8 +10,22 @@ Work in progress ⏳
 
 ## Usage
 
-`import 'package:flutter_paycards/flutter_paycards.dart';`  
-...  
+`import 'package:flutter_paycards/flutter_paycards.dart';`
+
+
 `Map<dynamic, dynamic> results = await FlutterPaycards.startRecognizer(fullScreen: false);`
 
 **fullScreen** determines [UIModalPresentationStyle](https://developer.apple.com/documentation/uikit/uimodalpresentationstyle) on IOS 13+
+
+The map returned from startRecognizer() will have below key/values:
+
+
+| Key                | Type    |
+| ------------------ |:-------:|
+| cardHolderName     | String  |
+| cardNumber         | String  |
+| redactedCardNumber | String  |
+| expiryMonth        | int     |
+| expiryYear         | int     |
+| cvv                | String  |
+| postalCode         | String  |

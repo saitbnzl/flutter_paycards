@@ -1,3 +1,7 @@
+## 0.2.0
+* Add IOS 13 support
+* Added fullScreen(bool) parameter to choose between fullscreen or modal view on IOS 13
+
 ## 0.1.3
 * null control in onActivityResult
 
