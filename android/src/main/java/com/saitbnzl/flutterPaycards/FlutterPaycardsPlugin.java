@@ -55,6 +55,9 @@ public class FlutterPaycardsPlugin implements MethodCallHandler, PluginRegistry.
   }
   @Override
   public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
+    if(mResult==null){
+      return  false;
+    }
     if (requestCode == REQUEST_CODE_SCAN_CARD) {
       if (resultCode == Activity.RESULT_OK) {
         Card card = data.getParcelableExtra(ScanCardIntent.RESULT_PAYCARDS_CARD);
