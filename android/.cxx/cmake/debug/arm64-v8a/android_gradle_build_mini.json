@@ -1,0 +1,86 @@
+{
+  "buildFiles": [
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/CMakeLists.txt",
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/eigen/CMakeLists.txt",
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/protobuf/CMakeLists.txt",
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/caffe/CMakeLists.txt",
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/libyuv/CMakeLists.txt",
+    "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/crossplatform/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "tbb-Debug-arm64-v8a": {
+      "artifactName": "tbb",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a"
+    },
+    "protobuf-Debug-arm64-v8a": {
+      "artifactName": "protobuf",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a --target protobuf",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/protobuf/libprotobuf.a"
+    },
+    "opencv_core-Debug-arm64-v8a": {
+      "artifactName": "opencv_core",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_core.a"
+    },
+    "opencv_imgproc-Debug-arm64-v8a": {
+      "artifactName": "opencv_imgproc",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a"
+    },
+    "cardrecognizer-Debug-arm64-v8a": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a --target cardrecognizer",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/obj/arm64-v8a/libcardrecognizer.so"
+    },
+    "opencv_ml-Debug-arm64-v8a": {
+      "artifactName": "opencv_ml",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a"
+    },
+    "caffe-Debug-arm64-v8a": {
+      "artifactName": "caffe",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a --target caffe",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/caffe/libcaffe.a"
+    },
+    "opencv_objdetect-Debug-arm64-v8a": {
+      "artifactName": "opencv_objdetect",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a"
+    },
+    "libcpufeatures-Debug-arm64-v8a": {
+      "artifactName": "libcpufeatures",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a"
+    },
+    "crossplatform-Debug-arm64-v8a": {
+      "artifactName": "crossplatform",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a --target crossplatform",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/crossplatform/libcrossplatform.a"
+    },
+    "opencv_videoio-Debug-arm64-v8a": {
+      "artifactName": "opencv_videoio",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a"
+    },
+    "libyuv-Debug-arm64-v8a": {
+      "artifactName": "libyuv",
+      "buildCommand": "/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a --target libyuv",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/libyuv/liblibyuv.a"
+    },
+    "opencv_imgcodecs-Debug-arm64-v8a": {
+      "artifactName": "opencv_imgcodecs",
+      "abi": "arm64-v8a",
+      "output": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/opencv2/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a"
+    }
+  }
+}

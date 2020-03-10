@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/saitbanazili/repos/flutter_paycards/example/android",
+      "sdkFolder": "/Users/saitbanazili/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/saitbanazili/repos/flutter_paycards/example/build/flutter_paycards/intermediates",
+      "gradleModulePathName": ":flutter_paycards",
+      "moduleRootFolder": "/Users/saitbanazili/repos/flutter_paycards/android",
+      "makeFile": "/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/saitbanazili/repos/flutter_paycards/example/android/.cxx",
+      "cxxFolder": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx",
+      "ndkFolder": "/Users/saitbanazili/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/saitbanazili/repos/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/saitbanazili/repos/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 18,
+  "cxxBuildFolder": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/saitbanazili/repos/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}

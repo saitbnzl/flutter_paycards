@@ -1,0 +1,15 @@
+Executable : /Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/saitbanazili/repos/flutter_paycards/android/src/main/cpp
+-B/Users/saitbanazili/repos/flutter_paycards/android/.cxx/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-18
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/saitbanazili/repos/flutter_paycards/example/build/flutter_paycards/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/saitbanazili/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/saitbanazili/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/saitbanazili/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
