@@ -33,10 +33,10 @@
   if ([@"startRecognizer" isEqualToString:call.method]) {
       _result = result;
       if (@available(iOS 13, *)){
-          NSNumber *fullScreen = call.arguments[@"fullScreen"];
-          UIModalPresentationStyle uiModalPresentationStyle = fullScreen.boolValue?UIModalPresentationFullScreen:UIModalPresentationPopover;
+          //NSNumber *fullScreen = call.arguments[@"fullScreen"];
+          UIModalPresentationStyle uiModalPresentationStyle = UIModalPresentationFullScreen;
           [_pcViewController setModalPresentationStyle:uiModalPresentationStyle];
-           NSLog(@"set fullscreen %d", (int)fullScreen);
+          //NSLog(@"set fullscreen %d", (int)fullScreen);
       }
       [_viewController presentViewController:_pcViewController animated:true completion:^{
           NSLog(@"presentViewController completed");
