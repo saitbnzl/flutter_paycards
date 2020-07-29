@@ -1,3 +1,6 @@
+## 0.2.3
+* Removed popover presentation style temporarily to fix iPad crash.
+
 ## 0.2.2
 * Fix example build
 

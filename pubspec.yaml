@@ -1,7 +1,7 @@
 name: flutter_paycards
 description: Flutter plugin for PayCards SDK.
 homepage: https://github.com/saitbnzl/flutter_paycards
-version: 0.2.2
+version: 0.2.3
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -24,8 +24,12 @@ flutter:
   # be modified. They are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
   plugin:
-    androidPackage: com.saitbnzl.flutterPaycards
-    pluginClass: FlutterPaycardsPlugin
+    platforms:
+      android:
+        package: com.saitbnzl.flutterPaycards
+        pluginClass: FlutterPaycardsPlugin
+      ios:
+        pluginClass: FlutterPaycardsPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
