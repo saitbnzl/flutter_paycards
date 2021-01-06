@@ -15,7 +15,7 @@ Work in progress ⏳
 
 `Map<dynamic, dynamic> results = await FlutterPaycards.startRecognizer(fullScreen: false);`
 
-**fullScreen** determines [UIModalPresentationStyle](https://developer.apple.com/documentation/uikit/uimodalpresentationstyle) on IOS 13+
+**cancelLabel** sets the label for cancel button
 
 The map returned from startRecognizer() will have below key/values:
 
