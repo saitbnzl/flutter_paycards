@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-- (instancetype)initWitRecognizerDelegate:recognizerDelegate;
+- (instancetype)initWithRecognizerDelegate:recognizerDelegate withCancelLabel:(NSString*)cancelLabel;
 @end

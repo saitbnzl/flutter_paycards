@@ -53,6 +53,8 @@ typedef NS_OPTIONS(NSUInteger, PayCardsRecognizerDataMode) {
 
 - (void)stopCamera;
 
+- (void)tapCancel:(id)sender;
+
 - (void)pauseRecognizer;
 
 - (void)resumeRecognizer;

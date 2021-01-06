@@ -15,7 +15,6 @@
     self = [super init];
     if (self) {
         _viewController = viewController;
-        _pcViewController = [[ViewController alloc] initWitRecognizerDelegate:self];
     }
     return self;
 }
@@ -31,6 +30,7 @@
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
   if ([@"startRecognizer" isEqualToString:call.method]) {
+      _pcViewController = [[ViewController alloc] initWithRecognizerDelegate:self withCancelLabel:call.arguments[@"cancelLabel"]];
       _result = result;
       if (@available(iOS 13, *)){
           //NSNumber *fullScreen = call.arguments[@"fullScreen"];

@@ -5,13 +5,18 @@
 @property (nonatomic, strong) UIButton *cancelButton;
 @end
 
+NSString* _cancelLabel = @"Cancel";
+
 @implementation ViewController{
     PayCardsRecognizer *_recognizer;
     FlutterPaycardsPlugin<PayCardsRecognizerPlatformDelegate> *delegate;
 }
 
-- (instancetype)initWitRecognizerDelegate:recognizerDelegate
+- (instancetype)initWithRecognizerDelegate:recognizerDelegate withCancelLabel:(NSString*)cancelLabel
 {
+    if(cancelLabel!=nil){
+        _cancelLabel = cancelLabel;
+    }
     self = [super init];
     if (self) {
         delegate = recognizerDelegate;
@@ -19,7 +24,7 @@
     return self;
 }
 
--(void)vinitWithRecognizer:recognizer{
+-(void)initWithRecognizer:recognizer{
     _recognizer = recognizer;
 }
 
@@ -28,6 +33,8 @@
     UIView *myView = [[UIView alloc] initWithFrame:self.view.bounds];
     myView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview: myView];
+    [self cancelButton];
+    
     if (@available(iOS 11, *)) {
         UILayoutGuide * guide = self.view.safeAreaLayoutGuide;
         [myView.leadingAnchor constraintEqualToAnchor:guide.leadingAnchor].active = YES;
@@ -44,6 +51,7 @@
 
     [self.view layoutIfNeeded];
     _recognizer = [[PayCardsRecognizer alloc] initWithDelegate:delegate recognizerMode:PayCardsRecognizerDataModeNumber|PayCardsRecognizerDataModeName|PayCardsRecognizerDataModeDate resultMode:PayCardsRecognizerResultModeSync container:myView frameColor:UIColor.cyanColor];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -72,29 +80,35 @@
     if (_cancelButton) {
         return _cancelButton;
     }
-    [self.view addSubview:self.cancelButton];
+    _cancelButton.translatesAutoresizingMaskIntoConstraints = false;
 
-    NSLayoutConstraint *left = [NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1 constant:10];
-    NSLayoutConstraint *bottom = [NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1 constant:10];
-    NSLayoutConstraint *height = [NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:50];
-    NSLayoutConstraint *width = [NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:[UIScreen mainScreen].bounds.size.width];
-    [self.view addConstraints:@[left, bottom]];
-    [self.cancelButton addConstraints:@[height, width]];
-    self.cancelButton.backgroundColor = UIColor.blackColor;
-    self.cancelButton.alpha = 0.5;
-    NSDictionary *attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:16], NSForegroundColorAttributeName: [UIColor colorWithWhite:1 alpha:0.5], NSUnderlineStyleAttributeName: @(NSUnderlineStyleNone)};
-    
-    NSAttributedString *attributedTitle = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"Cancel","") attributes:attributes];
-    
-    _cancelButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    _cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    NSDictionary *attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:20], NSForegroundColorAttributeName: [UIColor colorWithWhite:1 alpha:0.8], NSUnderlineStyleAttributeName: @(NSUnderlineStyleNone)};
+
+    NSAttributedString *attributedTitle = [[NSAttributedString alloc] initWithString:_cancelLabel attributes:attributes];
+    _cancelButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+    _cancelButton.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    [_cancelButton setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.33]];
     _cancelButton.translatesAutoresizingMaskIntoConstraints = NO;
     [_cancelButton setAttributedTitle:attributedTitle forState:UIControlStateNormal];
     [_cancelButton addTarget:self action:@selector(tapCancel) forControlEvents:UIControlEventTouchUpInside];
-    
+    [self.view addSubview:_cancelButton];
+    UILayoutGuide * guide = self.view.safeAreaLayoutGuide;
+    [_cancelButton.widthAnchor constraintEqualToConstant:self.view.bounds.size.width].active = YES;
+    [_cancelButton.heightAnchor constraintEqualToConstant:50].active = YES;
+    [_cancelButton.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor].active = YES;
+    [_cancelButton.topAnchor constraintEqualToAnchor:guide.bottomAnchor constant:-50].active = YES;
+
     return _cancelButton;
 }
 
 - (void)tapCancel {
+    [_recognizer tapCancel:nil];
+    NSLog(@"cancel");
+}
+
+- (void)tapCancelWithSender:(id)sender {
+    [self tapCancel];
     NSLog(@"cancel");
 }
 
