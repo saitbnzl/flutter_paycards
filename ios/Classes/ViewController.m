@@ -14,9 +14,8 @@ NSString* _cancelLabel = @"Cancel";
 
 - (instancetype)initWithRecognizerDelegate:recognizerDelegate withCancelLabel:(NSString*)cancelLabel
 {
-    if(cancelLabel!=nil){
-        _cancelLabel = cancelLabel;
-    }
+    if (cancelLabel != (id)[NSNull null] && cancelLabel.length > 0 ) _cancelLabel = cancelLabel;
+
     self = [super init];
     if (self) {
         delegate = recognizerDelegate;
