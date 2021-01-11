@@ -15,7 +15,7 @@ Work in progress ⏳
 
 `Map<dynamic, dynamic> results = await FlutterPaycards.startRecognizer(cancelLabel: 'Cancel');`
 
-**cancelLabel** sets the label for the cancel button
+**cancelLabel** sets the label for the cancel button on iOS.
 
 The map returned from startRecognizer() will have below key/values:
 
