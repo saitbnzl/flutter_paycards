@@ -10,4 +10,4 @@ build/
 
 flutter_export_environment.sh
 .idea/
-.cxx/
+android/.cxx/
