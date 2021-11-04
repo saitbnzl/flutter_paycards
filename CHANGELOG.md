@@ -1,3 +1,6 @@
+## 0.2.5
+   Update to support null safety
+
 ## 0.2.3
 * Removed popover presentation style temporarily to fix iPad crash.
 
